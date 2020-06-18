@@ -10,20 +10,24 @@ h2 {  color: #d1633c;  font-size: 1em;} </style>
 </head>
 
 <body>
-<img src="jenskitchen.gif" alt="Jen's Kitchen banner" width="660" height="94">
-
+<img src="images/jenskitchen.gif" alt="Jen's Kitchen banner" width="660" height="94">
+<!-- Path issue. <img src="jenskitchen.gif"> doesn't work because jenskitchen.gif is in the images folder, not the same folder as this file jenskitchen.html is.-->
 <h1>Welcome to Jen&rsquo;s Kitchen</h1>
 
 <p>People who know me know that I love to cook. I've created this site to share some of my favorite recipes and online food resources. <i>Bon Appetit!</i> </p>
 
-Click <a href="about.html">here</a> to learn about the site.</p>
-
+Click <a href="aboutme.html">here</a> to learn about the site.</p>
+<!-- Name issue. You have the file name as "aboutme.html", not "about.html". Two choices, rename the file from "aboutme" to "about", or just keep this change in the code-->
 <h2>From Jen&rsquo;s Cookbook</h2>
 <ul>
-  <li><a href="tapenade.html">Tapenade (Olive Spread)</a></li>
-  <li><a href="salmon.html">Garlic Salmon</a></li>
-  <li><a href="linguine.html">Linguine with Clam Sauce</a></li>
-  <li><a href="couscous.html">Couscous with Peas and Mint</a></li>
+  <li><a href="recipes/tapenade.html">Tapenade (Olive Spread)</a></li>
+  <!-- Path issue. <a href="tapenade.html"> doesn't work because tapenade.html is in the recipes folder, not the same folder as this file jenskitchen.html is.-->
+  <li><a href="recipes/salmon.html">Garlic Salmon</a></li>
+  <!-- Path issue. <a href="salmon.html"> doesn't work because salmon.html is in the recipes folder, not the same folder as this file jenskitchen.html is.-->
+  <li><a href="recipes/pasta/linguine.html">Linguine with Clam Sauce</a></li>
+  <!-- Path issue. <a href="linguine.html"> doesn't work because tapenade.html is in the pasta folder in the recipes folder, not the same folder as this file jenskitchen.html is. This one's different than the tapenade and salmon ones because it's in a folder in another folder, so you have to path forward twice. Once into the recipes folder, twice into the pasta folder-->
+  <li><a href="recipes/pasta/couscous.html">Couscous with Peas and Mint</a></li>
+  <!-- Path issue. <a href="couscous.html"> doesn't work because tapenade.html is in the pasta folder in the recipes folder, not the same folder as this file jenskitchen.html is. Same thing here as the linguine, need to path forward twice instead of once-->
 </ul>
 
 <h2>Good Food on the Web</h2>
