@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" >
-   <title>Blackstone Bistro / Pizza-Instant-Demand</title>
+   <title>Blackstone Bistro / Pizza In A Click</title>
    <style> body {  background-color: #BDDEDD;  margin: 0 10%;  font-family: sans-serif;  }h1 {  text-align: center;  font-family: serif;  font-weight: normal;  text-transform: uppercase;  border-bottom: 1px solid #E68411;  margin-top: 30px;}
     h2 {  color: #d1633c;  font-size: 1em;}
       .topnav
@@ -32,14 +32,14 @@
 <form action="http://www.blackgoosebistro.com/pizza.php" method="post">
 
 <fieldset>
-  <legend>Current Information</legend>
+  <legend>Realistic Info</legend>
   <ul>
     <li><label for="form-name">What your mother calls you:</label> <input type="text" name="customername" id="form-name"></li>
     <li><label for="form-address">Where your ex lives (Because you probably still couch surf):</label> <input type="text" name="address" id="form-address"></li>
     <li><label for="form-tel">Your exes number (Because you'll likely be asleep when it arrives):</label> <input type="tel" name="telephone" id="form-tel"></li>
     <li><label for="form-email">Your teenage email address that you use for job applications: <input type="email" name="email" id="form-email"></label></li>
-    <li>Is it the house with the 6 cars parked illegally on the lawn or the apartment unit on the 5th floor?:<br>
-    <textarea name="instructions" rows="4" cols="60" maxlength="400" id="form-story" placeholder="No more than 400 characters long"></textarea></li>
+    <li><br>
+    <textarea name="instructions" rows="4" cols="60" maxlength="400" id="form-story" placeholder="Is it the house with the 6 cars parked illegally on the lawn or the apartment unit on the 5th floor?"></textarea></li>
   </ul>
 </fieldset>
 
@@ -66,7 +66,8 @@
       <li><label><input type="checkbox" name="toppings[]" value="pepperoni"> Pepperoni</label></li>
       <li><label><input type="checkbox" name="toppings[]" value="mushrooms"> Mushrooms</label></li>
       <li><label><input type="checkbox" name="toppings[]" value="peppers"> Peppers</label></li>
-      <li><label><input type="checkbox" name="toppings[]" value="anchovies"> Anchovies</label></li>
+      <li><label><input type="checkbox" name="toppings[]" value="pineapple"> Pineapple</label></li>
+      <li><label><input type="checkbox" name="toppings[]" value="anchovies"> A new life</label></li>
     </ul>
   </fieldset>
 
@@ -76,11 +77,9 @@
   <select name="pizzas" size="1">
     <option>1</option>
     <option>2</option>
-    <option>3</option>
-    <option>4</option>
     <option>5</option>
-    <option>6</option>
-    <option>7</option>
+    <option>10</option>
+    <option>I have a problem</option>
   </select>
   </p>
   </fieldset>
@@ -88,7 +87,7 @@
 </fieldset> <!-- closes 'Pizza Specs' fieldset -->
 
 <p><input type="submit" value="I'm ready to eat!">
-<input type="I'm likely a female and changed my mind on what I wanted to eat"></p>
+<input type="reset" value="I'm likely a female and changed my mind on what I wanted to eat"></p>
 
 <p><a href="https://itsjlove.github.io/fid/blackgoose/index.html">Back to the home page</a></p>
 
