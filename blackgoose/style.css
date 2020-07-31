@@ -1,6 +1,6 @@
 body {  background-color: #BDDEDD;  margin: 0 10%;  font-family: sans-serif;  }h1 {  text-align: center;  font-family: serif;  font-weight: normal;  text-transform: uppercase;  border-bottom: 1px solid #E68411;  margin-top: 30px;}
   h2 {  color: #d1633c;  font-size: 1em;} 
-a:link, a.visited {
+:link, .visited {
 color: #d1633c;
 }
 a:hover{ color: #000000;}
